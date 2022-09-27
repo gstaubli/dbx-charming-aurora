@@ -1,0 +1,14 @@
+{
+    "environments": {
+        "default": {
+            "profile": "charming-aurora",
+            "storage_type": "mlflow",
+            "properties": {
+                "workspace_directory": "/Shared/dbx/charming_aurora",
+                "artifact_location": "dbfs:/Shared/dbx/projects/charming_aurora"
+            }
+        }
+    },
+    "inplace_jinja_support": false,
+    "failsafe_cluster_reuse_with_assets": false
+}
